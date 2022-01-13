@@ -15,7 +15,7 @@ font-family: 'Expletus Sans', cursive;
 `
 
 
-const BigTitlte = (props) => {
+const BigTitle = (props) => {
     return (
         <Text  top={props.top}  left={props.left}  right={props.right}>
             {props.text}
@@ -23,4 +23,4 @@ const BigTitlte = (props) => {
     )
 }
 
-export default BigTitlte
+export default BigTitle
